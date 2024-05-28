@@ -1,0 +1,13 @@
+--- /home/archretrouser/afetch_new/src/afetch/src/config.h	2024-05-27 20:02:09.182741128 -0400
++++ /home/archretrouser/Downloads/afetch-2.2.0/src/config.h	2024-05-27 16:27:51.359825188 -0400
+@@ -13,8 +13,8 @@
+ /* See options in colour.h file */
+ #define TextColour WHITE
+ 
+-#define PrintColours    false /* must be either 'true' or 'false' */
+-#define ColourCharacter "● "
++#define PrintColours    true /* must be either 'true' or 'false' */
++#define ColourCharacter "▀ "
+ 
+ /* Some examples of things you may want to use for your ColourCharacter
+ 
